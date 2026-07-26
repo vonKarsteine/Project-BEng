@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>pcd2octomap</name>
+  <version>1.0.0</version>
+  <description>
+    Small CLI converting a FAST-LIO saved .pcd point cloud into an octomap
+    .bt file (thesis Ch.5: raster map generation for RL training).
+    Usage: pcd2octomap input.pcd output.bt [resolution=0.05]
+  </description>
+  <maintainer email="user@todo.todo">thesis</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>libpcl-all-dev</build_depend>
+  <exec_depend>libpcl-all</exec_depend>
+  <depend>octomap</depend>
+</package>

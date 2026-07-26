@@ -1,0 +1,22 @@
+# local reference clones (provenance documented in REVISIONS.md)
+/vendor/
+
+# python artifacts
+__pycache__/
+*.pyc
+
+# training artifacts (regenerate via scripts/)
+Learn-with-Helper/logs/
+Learn-with-Helper/trained_models/
+results/*
+!results/.gitkeep
+
+# upstream demo media (98 MB of GIFs/PDF; see FAST-LIO upstream repo)
+catkin_ws/src/fast_lio/doc/
+
+# ROS build outputs
+catkin_ws/build/
+catkin_ws/devel/
+
+# pip editable-install artifact
+gym-uav/gym_uav.egg-info/
